@@ -1,0 +1,19 @@
+[
+  {
+    "caption": "Preferences: Wikilinks Settings",
+    "command": "edit_settings",
+    "args": {
+      "base_file": "${packages}/Wikilinks/Wikilinks.sublime-settings",
+      "default": "// Wikilinks Settings\n{\n\t\"wiki_directory\": \"$0\",\n\t\"wiki_extension\": \".md\"\n}\n"
+    }
+  },
+  {
+    "caption": "Preferences: Wikilinks Key Bindings",
+    "command": "edit_settings",
+    "args": {
+      "base_file": "${packages}/Wikilinks/Default ($platform).sublime-keymap",
+      "user_file": "${packages}/User/Default ($platform).sublime-keymap",
+      "default": "[\n\t$0\n]\n",
+    }
+  },
+]

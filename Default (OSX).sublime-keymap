@@ -1,0 +1,33 @@
+[
+    // Follow wikilink
+    {
+        "keys": [
+            "ctrl+enter"
+        ],
+        "command": "follow_wikilink",
+        "context": [
+            {
+                "key": "selector",
+                "operator": "equal",
+                "operand": "(text.plain, text.html.markdown)",
+                "match_all": true
+            }
+        ]
+    },
+    // Create wikilink
+    {
+        "keys": [
+            "[",
+            "["
+        ],
+        "command": "get_wikilink",
+        "context": [
+            {
+                "key": "selector",
+                "operator": "equal",
+                "operand": "(text.plain, text.html.markdown)",
+                "match_all": true
+            }
+        ]
+    }
+]

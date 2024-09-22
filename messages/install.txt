@@ -1,0 +1,3 @@
+Welcome to Wikilinks! 🎉
+
+To get started, please set the directory path for your notes in the preferences.

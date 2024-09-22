@@ -1,0 +1,8 @@
+// Wikilinks Settings
+{
+    // Specify the directory path where your notes are stored.
+    "wiki_directory": "",
+    // Define the file extension for your notes.
+    // Leave empty if you wish to include files of all extensions.
+    "wiki_extension": ".md"
+}
